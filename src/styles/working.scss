@@ -1,0 +1,57 @@
+.working{
+    margin: 50px 0;
+    h2{
+        margin: 30px 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        letter-spacing: -0.01em;
+        color: #001F27;
+    }
+
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .middle{
+        width: 235px;
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background: url('https://s3-alpha-sig.figma.com/img/79c2/3d8f/64576b51203df6256041a0f14985b4a1?Expires=1674432000&Signature=P7zRf58OVNgzQkmW3h0~APoNhfG3DSIlXpFPRzmTmSGjIl40wbyEEDjRkKIf0CjIsBeagAu1M0JhWg-zU5ULlvhX60~98sCZ5Oa65FbAix7IYwVsPhxCWAF95-DUe~K10pLXKF5wiuCettDI2fkuBwKudkZtxde6zwpSrrnBfIt3E7sxXGg2XHHUBmWYCrkCjk0B1j72if-Rdty-3~yB-885~h-xmw8O6v9FYSZkNUWSFDSTlU3VZPoXXRXe8i~ILy0ffS6XbSAnphntM~t1S~7idvz1NIM0x0i1hNSM~KN8O7S4~JbjtCTS3ym8e0yjghUfJD-9NaJv5SEIScuWZg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-size: cover;
+        border-radius: 18px;
+        border: 3px solid #52A49A;
+
+        .rectangle{
+            width: 268px;
+            height: 175px;
+            margin-left: -30px;
+            margin-bottom: -24px;
+            background: linear-gradient(180deg, rgba(251, 251, 253, 0) -50%, #FBFBFD 74.21%);
+            filter: blur(10px);
+
+        }
+    }
+}
+
+
+
+.hcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 379px;
+    height: 175px;
+    background: #FFFFFF;
+    box-shadow: 26px 26px 23px rgba(204, 210, 212, 0.36);
+    border-radius: 12px;
+
+    h3,p{
+        margin: 10px 10px;
+    }
+}

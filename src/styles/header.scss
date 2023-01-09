@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4.2rem;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 2px 22px rgba(82, 164, 154, 0.08), inset 0px -1px 0px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(10px);
+
+    .logo-image{
+        width: 153px;
+        height: 42px;
+        right: 1167px;
+        top: 24px;
+        background: url('https://s3-alpha-sig.figma.com/img/1e4f/bd76/580be497c3d189e843fd9c4609f49033?Expires=1674432000&Signature=MQQCBtduh-5Dh7eegCCc5l0pOr9oSeSTN24TMK695iwiKtdY-enXMh5pPh5aiMcCdLOuBu7SuTAXzFXw~VOggYm2jepU2bbS85fcaPvTE-CUtREa6R7uRVBxRrt4daZjnnuzTITUpw5s~XY7DJ3MeAp0hYmv0MTPdM-GzCUOXug6KFfcByAMXB8YuJ1VkgSV5KVixqX~u~l0RDH6tAezCrmqIbNqJYLu7Qpe6lFLfO48MkTRBNEGZmd1bn89DTZifP-XKAq3WTUT9IYawxT2m0MAsJ4J1Zv98howEdM1vlpZtPTJ2bjgiRu7OVmmYFt9kHotH1JA8eOaKdB2TrVsMw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        background-size: cover;
+
+    }
+    .header-item{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 5rem;
+
+        p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #060606;
+            margin: 20px 0;
+        }
+    }
+
+    .login-btn{
+        span{
+            margin-left: 6px;
+        }
+        .btn{
+            background: linear-gradient(360deg, #52A49A -65.93%, #00CDAC 100%);
+            border-radius: 80px;
+            color: #fff;
+        }
+    }
+}
+

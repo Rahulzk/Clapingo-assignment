@@ -1,0 +1,43 @@
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.left-banner{
+    width: 687px;
+    h2{
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 68px;
+        letter-spacing: -0.01em;
+    }
+    p{
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .trial{
+       background: #FF736A;
+       border-radius: 80px;
+       color: #fff;
+    }
+    .download{
+        border-radius: 80px;
+        color: #FF736A;
+        border: 1px solid #FF736A;
+        margin: 0 30px;
+    }
+}
+
+
+
+.right-banner{
+    .right-image{
+        height: 180px;
+        width: 310px;
+        border: 1.2px solid black;
+        border-radius: .6rem;
+        margin-top: 25px;
+    }
+}

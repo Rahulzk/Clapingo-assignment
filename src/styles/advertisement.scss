@@ -1,0 +1,79 @@
+.advertise{
+    position: relative;
+    margin-top: 40px;
+
+    .left-advertise{
+        background: linear-gradient(90deg, #00D2FF -13.02%, rgba(0, 210, 255, 0) 103.77%);
+        width: 550px;
+        height: 370px;
+
+        .download-section{
+            position: absolute;
+            left: 162px;
+            top: 72px;
+        }
+        .learner-section{   
+            position: absolute;
+            left: 398px;
+            top: 72px;
+        }
+        .session-section{
+            position: absolute;
+            left: 193px;
+            top: 198px;
+        }
+        .speaker-section{
+            position: absolute;
+            left: 428px;
+            top: 198px;
+        }
+
+    }
+
+    .right-advertise{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        h2{
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 52px;        
+            letter-spacing: -0.01em;
+            color: #001F27;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+            color: #001F27;
+        }
+        .trial {
+            background: #FF736A;
+            border-radius: 80px;
+            color: #fff;
+            width: 115px;
+        }
+    }
+}
+
+
+
+
+.info{
+    width: 205px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #3A3636;
+    border-radius: 12px;
+    color: #fff;
+    padding: 12px 24px 15px;
+    gap: 10px;
+
+    p{
+        font-size: 14px;
+    }
+}
